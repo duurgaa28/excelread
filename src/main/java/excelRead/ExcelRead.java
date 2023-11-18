@@ -38,6 +38,7 @@ public String readExcelData(int i,int j) {
 	
 public static void main (String args[]) throws IOException {
 	ExcelRead ex=new ExcelRead();
+	System.out.println("reading data from excel");
 	for(int i=0;i<6;i++) {
 		for(int j=0;j<3;j++) {
 			System.out.print(ex.readExcelData(i,j)+" ");
