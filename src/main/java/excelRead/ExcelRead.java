@@ -31,7 +31,6 @@ public class ExcelRead {
 		case BOOLEAN:
 			return String.valueOf(cell.getBooleanCellValue());
 		}
-		System.out.println("change");
 		return "  ";
 	}
 
@@ -44,6 +43,6 @@ public class ExcelRead {
 			}
 			System.out.println();
 		}
-
+System.out.println(" 2nd");
 	}
 }
